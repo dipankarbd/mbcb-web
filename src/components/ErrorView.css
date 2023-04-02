@@ -1,0 +1,9 @@
+.ErrorView {
+  background-color: rgb(218, 42, 42);
+  padding: 2rem;
+}
+
+.ErrorView h3 {
+  color: white;
+  text-align: center;
+}
