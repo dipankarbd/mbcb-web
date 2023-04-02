@@ -1,0 +1,45 @@
+.MonthlyBalance {
+  background-color: lightgreen;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.MonthlyBalance h1 {
+  color: darkolivegreen;
+  text-align: center;
+  font-weight: 100;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.MonthlyBalance ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.MonthlyBalance ul li {
+  color: darkgreen;
+  font-weight: bold;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid rgb(95, 190, 99);
+  margin-bottom: 1.5rem;
+}
+
+.MonthlyBalance ul li .month {
+  font-weight: 500;
+  flex-grow: 1;
+}
+
+.MonthlyBalance ul li .currency {
+  font-weight: normal;
+  color: #37a14e;
+  padding-left: 0.5rem;
+  font-size: 0.75em;
+  align-self: center;
+}
