@@ -1,0 +1,8 @@
+.LoadingView {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.LoadingView h3 {
+  color: green;
+}
